@@ -15,6 +15,10 @@ $("#calcular").click(function() {
 	if ($("#operator").val() == "-") {
         resultado = numA - numB;
     }
+	
+	if ($("#operator").val() == "/") {
+        resultado = numA / numB;
+    }
     $("#resultado").html(resultado);
 
 });
